@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 }
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xFF7E57C2), // фиолетовый цвет
+    primary = Color(0xFF7E57C2),
     secondary = Color(0xFFBA68C8),
     tertiary = Color(0xFF6A1B9A),
 )

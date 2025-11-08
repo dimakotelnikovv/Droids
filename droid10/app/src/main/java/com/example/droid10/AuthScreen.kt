@@ -48,14 +48,14 @@ fun LoginScreen(navController: NavController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        TextButton(onClick = { /* Forgot Password Logic */ }) {
+        TextButton(onClick = {}) {
             Text("Forgot Password?")
         }
 
         Spacer(modifier = Modifier.height(16.dp))
 
         Button(
-            onClick = { /* Login Logic */ },
+            onClick = {},
             modifier = Modifier.fillMaxWidth()
         ) {
             Text("Log In")
